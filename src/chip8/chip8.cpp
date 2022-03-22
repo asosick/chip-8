@@ -1,7 +1,6 @@
-#include <iostream>
-#include <string>
-#include <fstream>
 #include "chip8.h"
+#include <iostream>
+#include <fstream>
 
 void Chip8::loadRom(const std::string filename){
     std::ifstream file(filename, std::ios::binary | std::ios::ate);

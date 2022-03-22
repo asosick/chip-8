@@ -1,6 +1,9 @@
 #ifndef CHIP_8_CHIP8_H
 #define CHIP_8_CHIP8_H
+
+#include <string>
 #include "../types.h"
+
 
 const u16 START_ADDRESS = 0x200;
 const u16 FONTSET_SIZE = 80;
