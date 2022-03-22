@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-#include "src/chip8.h"
+#include "chip8/chip8.h"
 
 int main() {
     Chip8 chip8;

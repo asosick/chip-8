@@ -3,4 +3,4 @@ project(CHIP_8)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(CHIP_8 main.cpp src/chip8.h src/types.h src/chip8.cpp)
+add_executable(CHIP_8 src/main.cpp src/chip8/chip8.h src/types.h src/chip8/chip8.cpp)
