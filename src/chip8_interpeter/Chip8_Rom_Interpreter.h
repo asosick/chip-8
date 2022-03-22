@@ -9,4 +9,5 @@
 void convertBinToChip8Ops(const char *const filename);
 
 std::vector<uint8_t> parseHexVectorOfFile(const char *const filename);
+std::string hexToOp(const uint16_t opcode);
 #endif //CHIP_8_CHIP8_ROM_INTERPRETER_H
